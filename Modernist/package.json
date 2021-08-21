@@ -1,0 +1,39 @@
+{
+  "name": "Modernist",
+  "version": "0.0.1",
+  "description": "Modernist",
+  "main": "index.js",
+  "keywords": [
+    "scss",
+    "css",
+    "framework",
+    "theme",
+    "html",
+    "front-end",
+    "template",
+    "forms",
+    "spacing",
+    "typography"
+  ],
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chitranjan",
+  "license": "Check license.md file of this repo",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "autoprefixer": "^9.8.6",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-calc": "^7.0.5",
+    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables.git"
+  }
+}

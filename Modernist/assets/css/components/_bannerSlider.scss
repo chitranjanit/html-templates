@@ -1,0 +1,36 @@
+.banner-slider {
+    background:#290000;
+    
+    .bannerSlider{
+        .item{
+            .left-content{
+                h2{
+                    color: $white;
+                    font-size:46px;
+                    margin:15px 0px;
+                }
+                p{
+                    color:$white;
+                    font-size:12px;
+                    margin:15px 0px;
+                }
+                a.btn.btn-success{
+                    background-color: $primaryColor;
+                    color:$white;
+                    float: left;
+                    padding:5px;
+                    border-radius: 5px;
+                    margin:15px 0px;
+                }
+            }
+            .right-image{
+                float: right;
+                img{
+                    width: 430px;
+                    height: 432px;
+                }
+            }
+        }
+        
+    }
+}

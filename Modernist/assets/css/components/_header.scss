@@ -1,0 +1,46 @@
+header.header{
+    background-color: #290000;
+    padding:45px 0px;
+    border-top:5px solid $primaryColor;
+
+    // Header Logo
+    div.header-logo{
+        margin: 0;
+        padding: 0;
+
+        h1 a{
+            color: $white;
+            font-size: 28px;
+
+            span{
+                color:$white;
+                font-size:12px;
+                display:block;
+            }
+        }
+    }
+
+    // Header Nav
+    div#navbarNav{
+        margin: 0;
+        padding: 0;
+        ul.primary-menu{
+            li.menu-item{
+                
+                a.nav-link{
+                    color: $white;
+                    text-transform: uppercase;
+                    padding:5px 20px;
+                }
+
+                &.active a{
+                    background:$primaryColor;
+                    border-radius: 5px;
+                }
+            }
+
+            
+        }
+    }
+
+}
