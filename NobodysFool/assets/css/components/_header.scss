@@ -1,0 +1,64 @@
+header{
+    // Top Header
+    .top-header{
+        background-color: $black;
+        padding:25px 0px;
+        .top-menu{
+            display: flex;
+            flex-direction:row;
+            float:left;
+
+            li{
+                a{
+                    font-size:16px;
+                    color: #9f9f9f;
+                    padding-right: 8px;
+                    text-decoration: none;
+                    &:hover{
+                        color: $primaryColor;
+                    }
+                    &::after{
+                        content:' | ';
+                    }
+                }
+                &:nth-last-child(1) {
+                    a{
+                        &::after{
+                            content:'';
+                        }
+                    }
+                }
+            }
+        }
+        .social-media{
+            display: flex;
+            flex-direction:row;
+            float: right;
+
+            li{
+                background-color: $secondaryColor;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                margin-right: 5px;
+                border-radius: 100%;
+                text-align: center;
+                &:hover i{
+                    color: $white;
+                }
+                &.linkedin:hover{
+                    background-color: #0A66C2;
+                }
+                &.twitter:hover{
+                    background-color: #1DA1F2;
+                }
+                &.pinintrest:hover{
+                    background-color: #BD081C;
+                }
+                &.rss:hover{
+                    background-color: #00C300;
+                }
+            }
+        }
+    }
+}
